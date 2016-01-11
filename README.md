@@ -25,6 +25,8 @@ README
 
 [Spree customize Erb templates](https://guides.spreecommerce.com/developer/view.html)
 
+[Ukrainian language support for Ruby & Ruby and Rails](https://github.com/romanvbabenko/ukrainian)
+
 [Faker Data](http://stackoverflow.com/questions/30963561/faker-populator-in-multiple-languages-english-russian)
 
 [Faker Data](https://github.com/leonid-shevtsov/vydumschik)
