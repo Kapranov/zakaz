@@ -1,0 +1,10 @@
+I, [2016-01-11T12:10:07.400330 #20391]  INFO -- : Refreshing Gem list
+I, [2016-01-11T12:10:50.086494 #20391]  INFO -- : unlinking existing socket=/var/www/zakaz/shared/sockets/unicorn.sock
+I, [2016-01-11T12:10:50.086634 #20391]  INFO -- : listening on addr=/var/www/zakaz/shared/sockets/unicorn.sock fd=12
+I, [2016-01-11T12:10:50.086720 #20391]  INFO -- : worker=0 spawning...
+I, [2016-01-11T12:10:50.089577 #20391]  INFO -- : worker=1 spawning...
+I, [2016-01-11T12:10:50.090397 #23773]  INFO -- : worker=0 spawned pid=23773
+I, [2016-01-11T12:10:50.090562 #23773]  INFO -- : worker=0 ready
+I, [2016-01-11T12:10:50.092808 #20391]  INFO -- : master process ready
+I, [2016-01-11T12:10:50.099248 #23776]  INFO -- : worker=1 spawned pid=23776
+I, [2016-01-11T12:10:50.099417 #23776]  INFO -- : worker=1 ready
