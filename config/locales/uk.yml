@@ -1,0 +1,11 @@
+uk:
+  hello: "Hello world"
+  spree:
+    English: "English"
+    Ukrainian: "Український"
+    Russian: "Русский"
+    contact_us_title: "Зв'яжіться з нами"
+    i18n:
+      language: "Український"
+      this_file_language: "Український"
+    # shop_by_taxonomy: Магазин по %{taxonomy}

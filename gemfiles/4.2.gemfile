@@ -1,0 +1,66 @@
+source 'https://rubygems.org'
+
+ruby File.read('.ruby-version').strip
+
+gem 'rails',                '4.2.5'
+gem 'sqlite3'
+gem 'sass-rails',           '~> 5.0'
+gem 'uglifier',             '~> 2.7'
+gem 'coffee-rails',         '~> 4.1'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder',             '~> 2.4'
+gem 'lograge'
+gem 'figaro'
+gem 'foreman'
+gem 'subcontractor'
+gem 'mailcatcher'
+gem 'yaml_db'
+gem 'spree',                  '3.0.4'
+gem 'spree_gateway',          github: 'spree/spree_gateway',                  branch: '3-0-stable'
+gem 'spree_auth_devise',      github: 'spree/spree_auth_devise',              branch: '3-0-stable'
+gem 'spree_i18n',             github: 'spree-contrib/spree_i18n',             branch: '3-0-stable'
+gem 'spree_product_zoom',     github: 'spree-contrib/spree_product_zoom',     branch: '3-0-stable'
+gem 'spree_static_content',   github: 'spree-contrib/spree_static_content',   branch: '3-0-stable'
+gem 'spree_mail_settings',    github: 'spree-contrib/spree_mail_settings',    branch: '3-0-stable'
+gem 'spree_multi_currency',   github: 'spree-contrib/spree_multi_currency',   branch: '3-0-stable'
+gem 'spree_print_invoice',    github: 'spree-contrib/spree_print_invoice',    branch: '3-0-stable'
+gem 'spree_related_products', github: 'spree-contrib/spree_related_products', branch: '3-0-stable'
+gem 'spree_volume_pricing',   github: 'spree-contrib/spree_volume_pricing',   branch: '3-0-stable'
+gem 'spree_reviews',          github: 'spree-contrib/spree_reviews',          branch: '3-0-stable'
+gem 'spree_social_products',  github: 'spree-contrib/spree_social_products',  branch: '3-0-stable'
+gem 'spree_contact_us',       github: 'spree-contrib/spree_contact_us',       branch: '3-0-stable'
+gem 'spree_email_to_friend',  github: 'spree-contrib/spree_email_to_friend',  branch: '3-0-stable'
+gem 'spree_recently_viewed',  github: 'spree-contrib/spree_recently_viewed',  branch: '3-0-stable'
+gem 'spree_comments',         github: 'spree-contrib/spree_comments',         branch: '3-0-stable'
+gem 'spree_slider',           github: 'spree-contrib/spree_slider',           branch: '3-0-stable'
+
+group :development do
+  gem 'web-console',        '~> 2.0'
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'guard',              :require => false
+  gem 'guard-minitest',     :require => false
+  gem 'guard-bundler'
+  gem 'guard-rails'
+  gem 'guard-rspec'
+  gem 'annotate'
+  gem 'rails-erd'
+  gem 'spring'
+end
+
+group :production do
+  gem 'unicorn'
+end
+
+group :development, :test do
+  gem 'thin'
+  gem 'byebug'
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-nav'
+  gem 'pry-rescue'
+  gem 'rspec-rails'
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
+end

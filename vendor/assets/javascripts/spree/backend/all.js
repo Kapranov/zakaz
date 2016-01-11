@@ -1,0 +1,10 @@
+//= require jquery
+//= require jquery_ujs
+//= require spree/backend
+//= require spree/backend/spree_i18n
+//= require spree/backend/spree_multi_currency
+//= require spree/backend/spree_print_invoice
+//= require spree/backend/spree_volume_pricing
+//= require spree/backend/spree_reviews
+//= require spree/backend/spree_social_products
+//= require_tree .
