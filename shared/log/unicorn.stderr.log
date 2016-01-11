@@ -8,3 +8,26 @@ I, [2016-01-11T12:10:50.090562 #23773]  INFO -- : worker=0 ready
 I, [2016-01-11T12:10:50.092808 #20391]  INFO -- : master process ready
 I, [2016-01-11T12:10:50.099248 #23776]  INFO -- : worker=1 spawned pid=23776
 I, [2016-01-11T12:10:50.099417 #23776]  INFO -- : worker=1 ready
+I, [2016-01-11T20:36:25.347526 #17535]  INFO -- : Refreshing Gem list
+I, [2016-01-11T20:36:43.617303 #17535]  INFO -- : unlinking existing socket=/var/www/zakaz/shared/sockets/unicorn.sock
+I, [2016-01-11T20:36:43.629282 #17535]  INFO -- : listening on addr=/var/www/zakaz/shared/sockets/unicorn.sock fd=12
+I, [2016-01-11T20:36:43.629411 #17535]  INFO -- : worker=0 spawning...
+I, [2016-01-11T20:36:43.632869 #17535]  INFO -- : worker=1 spawning...
+I, [2016-01-11T20:36:43.633952 #17538]  INFO -- : worker=0 spawned pid=17538
+I, [2016-01-11T20:36:43.634083 #17538]  INFO -- : worker=0 ready
+I, [2016-01-11T20:36:43.636802 #17535]  INFO -- : master process ready
+I, [2016-01-11T20:36:43.643373 #17541]  INFO -- : worker=1 spawned pid=17541
+I, [2016-01-11T20:36:43.643519 #17541]  INFO -- : worker=1 ready
+I, [2016-01-11T20:36:58.797305 #17535]  INFO -- : reaped #<Process::Status: pid 17538 exit 0> worker=0
+I, [2016-01-11T20:36:58.897662 #17535]  INFO -- : reaped #<Process::Status: pid 17541 exit 0> worker=1
+I, [2016-01-11T20:36:58.897828 #17535]  INFO -- : master complete
+I, [2016-01-11T20:38:11.037242 #2560]  INFO -- : Refreshing Gem list
+I, [2016-01-11T20:38:57.994989 #2560]  INFO -- : unlinking existing socket=/var/www/zakaz/shared/sockets/unicorn.sock
+I, [2016-01-11T20:38:57.995135 #2560]  INFO -- : listening on addr=/var/www/zakaz/shared/sockets/unicorn.sock fd=12
+I, [2016-01-11T20:38:57.995220 #2560]  INFO -- : worker=0 spawning...
+I, [2016-01-11T20:38:57.997496 #2560]  INFO -- : worker=1 spawning...
+I, [2016-01-11T20:38:57.998443 #2822]  INFO -- : worker=0 spawned pid=2822
+I, [2016-01-11T20:38:57.998984 #2822]  INFO -- : worker=0 ready
+I, [2016-01-11T20:38:58.001008 #2560]  INFO -- : master process ready
+I, [2016-01-11T20:38:58.010327 #2825]  INFO -- : worker=1 spawned pid=2825
+I, [2016-01-11T20:38:58.010894 #2825]  INFO -- : worker=1 ready
