@@ -36,6 +36,7 @@ gem 'spree_comments',         github: 'spree-contrib/spree_comments',         br
 gem 'spree_slider',           github: 'spree-contrib/spree_slider',           branch: '3-0-stable'
 
 group :development do
+  gem 'rails_db'
   gem 'web-console',        '~> 2.0'
   gem 'better_errors'
   gem 'quiet_assets'
