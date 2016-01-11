@@ -2,7 +2,9 @@ README
 ======
 
 [Deface is a library that allows you to customize HTML](https://github.com/spree/deface)
+
 [Spree Demo](https://github.com/spree/demo.git)
+
 [Spree Documentation](https://guides.spreecommerce.com/)
 [Spree A Request for Comments](https://github.com/spree-contrib/rfcs)
 [Spree Twilio](https://github.com/spree/custom_tutorial)
