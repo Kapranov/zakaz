@@ -51,4 +51,11 @@ README
 
 [Demo Spree #9](https://www.combatgent.com/)
 
-### 11 Jan 2016 Oleg G.Kapranov
+```
+  irina@travelonline.com.ua => password
+  info@travelonline.com.ua  => password
+  oleg@vertiopia.com        => password
+  lugatex@yahoo.com         => password
+```
+
+### 31 Jan 2016 Oleg G.Kapranov

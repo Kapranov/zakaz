@@ -2,20 +2,33 @@ source 'https://rubygems.org'
 
 ruby File.read('.ruby-version').strip
 
-gem 'rails',                '4.2.5'
+gem 'rails',                  '4.2.5'
 gem 'sqlite3'
-gem 'sass-rails',           '~> 5.0'
-gem 'uglifier',             '~> 2.7'
-gem 'coffee-rails',         '~> 4.1'
+gem 'sass-rails',             '~> 5.0'
+gem 'uglifier',               '~> 2.7'
+gem 'coffee-rails',           '~> 4.1'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder',             '~> 2.4'
+gem 'jbuilder',               '~> 2.4'
+gem 'devise',                 '3.4.1'
+gem 'highline',               '1.6.21'
+gem 'json',                   '1.8.1'
+gem 'sprockets-rails',        '2.3.3'
+gem 'prawn',                  '1.0.0'
+gem 'ttfunk',                 '1.1.1'
 gem 'lograge'
+gem 'rest-client',            '1.6.8'
+gem 'ransack',                '1.4.1'
+gem 'psych',                  '2.0.8'
+gem 'pdf-core',               '0.2.5'
+gem 'mime-types',             '1.25.1'
 gem 'figaro'
 gem 'foreman'
 gem 'subcontractor'
 gem 'mailcatcher'
 gem 'yaml_db'
+gem 'rails_db'
+gem 'rails-erd'
 gem 'spree',                  '3.0.4'
 gem 'spree_gateway',          github: 'spree/spree_gateway',                  branch: '3-0-stable'
 gem 'spree_auth_devise',      github: 'spree/spree_auth_devise',              branch: '3-0-stable'
@@ -36,17 +49,16 @@ gem 'spree_comments',         github: 'spree-contrib/spree_comments',         br
 gem 'spree_slider',           github: 'spree-contrib/spree_slider',           branch: '3-0-stable'
 
 group :development do
-  gem 'rails_db'
-  gem 'web-console',        '~> 2.0'
+  gem 'web-console',          '~> 3.1'
   gem 'better_errors'
+  gem 'ffaker',               '1.32.1'
   gem 'quiet_assets'
-  gem 'guard',              :require => false
-  gem 'guard-minitest',     :require => false
+  gem 'guard',                :require => false
+  gem 'guard-minitest',       :require => false
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec'
   gem 'annotate'
-  gem 'rails-erd'
   gem 'spring'
 end
 
@@ -55,7 +67,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'thin'
+  gem 'thin',                 '1.5.1'
   gem 'byebug'
   gem 'pry'
   gem 'pry-rails'

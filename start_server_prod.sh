@@ -16,6 +16,8 @@ rm -rf tmp/cache/
 rm -rf vendor/bundle/
 rm -rf public/assets/
 rm -f  Gemfile.lock
+rm -f  zakaz_schemas.pdf
+rm -f  zakaz_schemas.jpg
 bundle
 bundle exec rake tmp:clear
 bundle exec rake log:clear
@@ -24,6 +26,8 @@ bundle exec rake assets:clean
 bundle install --deployment --without development test
 bundle exec rake assets:precompile RAILS_ENV=production
 touch /var/www/zakaz/tmp/restart.txt
+bundle exec erd --title='zakaz.inte.ua model diagram' --filename='zakaz_diagram'
+convert zakaz_diagram.pdf zakaz_diagram.jpg
 echo -en "\n"
 echo -en "\nStart Zakaz Production Server:\n"
 echo -en "\thttps://$HOSTNAME\n"

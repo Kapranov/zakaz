@@ -31,3 +31,15 @@ I, [2016-01-11T20:38:57.998984 #2822]  INFO -- : worker=0 ready
 I, [2016-01-11T20:38:58.001008 #2560]  INFO -- : master process ready
 I, [2016-01-11T20:38:58.010327 #2825]  INFO -- : worker=1 spawned pid=2825
 I, [2016-01-11T20:38:58.010894 #2825]  INFO -- : worker=1 ready
+D, [2016-01-29T21:35:36.753613 #2560] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2016-01-31T15:19:32.609856 #17547]  INFO -- : Refreshing Gem list
+[Simple Form] Simple Form is not configured in the application and will use the default values. Use `rails generate simple_form:install` to generate the Simple Form configuration.
+I, [2016-01-31T15:19:47.231455 #17547]  INFO -- : unlinking existing socket=/var/www/zakaz/shared/sockets/unicorn.sock
+I, [2016-01-31T15:19:47.250036 #17547]  INFO -- : listening on addr=/var/www/zakaz/shared/sockets/unicorn.sock fd=12
+I, [2016-01-31T15:19:47.250226 #17547]  INFO -- : worker=0 spawning...
+I, [2016-01-31T15:19:47.255064 #17547]  INFO -- : worker=1 spawning...
+I, [2016-01-31T15:19:47.256079 #17550]  INFO -- : worker=0 spawned pid=17550
+I, [2016-01-31T15:19:47.256257 #17550]  INFO -- : worker=0 ready
+I, [2016-01-31T15:19:47.260755 #17547]  INFO -- : master process ready
+I, [2016-01-31T15:19:47.266739 #17553]  INFO -- : worker=1 spawned pid=17553
+I, [2016-01-31T15:19:47.266936 #17553]  INFO -- : worker=1 ready
