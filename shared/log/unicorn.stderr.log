@@ -43,3 +43,21 @@ I, [2016-01-31T15:19:47.256257 #17550]  INFO -- : worker=0 ready
 I, [2016-01-31T15:19:47.260755 #17547]  INFO -- : master process ready
 I, [2016-01-31T15:19:47.266739 #17553]  INFO -- : worker=1 spawned pid=17553
 I, [2016-01-31T15:19:47.266936 #17553]  INFO -- : worker=1 ready
+/var/www/zakaz/vendor/bundle/ruby/2.2.0/bundler/gems/spree_slider-a39469a3514d/app/views/spree/admin/slides/_form.html.erb:28: warning: duplicated key at line 28 ignored: :class
+/var/www/zakaz/vendor/bundle/ruby/2.2.0/bundler/gems/spree_slider-a39469a3514d/app/views/spree/admin/slides/_form.html.erb:35: warning: duplicated key at line 35 ignored: :class
+/var/www/zakaz/vendor/bundle/ruby/2.2.0/bundler/gems/spree_slider-a39469a3514d/app/views/spree/admin/slides/_form.html.erb:28: warning: duplicated key at line 28 ignored: :class
+/var/www/zakaz/vendor/bundle/ruby/2.2.0/bundler/gems/spree_slider-a39469a3514d/app/views/spree/admin/slides/_form.html.erb:35: warning: duplicated key at line 35 ignored: :class
+I, [2016-02-02T13:25:16.643034 #17547]  INFO -- : reaped #<Process::Status: pid 17550 exit 0> worker=0
+I, [2016-02-02T13:25:16.689874 #17547]  INFO -- : reaped #<Process::Status: pid 17553 exit 0> worker=1
+I, [2016-02-02T13:25:16.770619 #17547]  INFO -- : master complete
+I, [2016-02-02T13:36:03.612368 #2572]  INFO -- : Refreshing Gem list
+[Simple Form] Simple Form is not configured in the application and will use the default values. Use `rails generate simple_form:install` to generate the Simple Form configuration.
+I, [2016-02-02T13:36:37.278531 #2572]  INFO -- : unlinking existing socket=/var/www/zakaz/shared/sockets/unicorn.sock
+I, [2016-02-02T13:36:37.278781 #2572]  INFO -- : listening on addr=/var/www/zakaz/shared/sockets/unicorn.sock fd=12
+I, [2016-02-02T13:36:37.278887 #2572]  INFO -- : worker=0 spawning...
+I, [2016-02-02T13:36:37.281266 #2572]  INFO -- : worker=1 spawning...
+I, [2016-02-02T13:36:37.282474 #2656]  INFO -- : worker=0 spawned pid=2656
+I, [2016-02-02T13:36:37.282687 #2656]  INFO -- : worker=0 ready
+I, [2016-02-02T13:36:37.285312 #2572]  INFO -- : master process ready
+I, [2016-02-02T13:36:37.291592 #2659]  INFO -- : worker=1 spawned pid=2659
+I, [2016-02-02T13:36:37.291804 #2659]  INFO -- : worker=1 ready

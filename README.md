@@ -1,5 +1,11 @@
 README
 ======
+[Getting in the Open Source world with Spree](http://claan.com/notes/getting-in-the-open-source-world-with-spree)
+[Full source code on GitHub](https://github.com/Claan/)
+
+[Spree Admin Route](http://www.gamecreatures.com/blog/2015/09/17/spree-commerce-custom-admin-routes/)
+[Spree Admin Route](http://www.gamecreatures.com/blog/2015/09/17/spree-commerce-custom-admin-routes-attempt-2/)
+[Spree Admin Route](https://github.com/spree/spree/blob/v2.2.0/backend/config/routes.rb#L4)
 
 [Deface is a library that allows you to customize HTML](https://github.com/spree/deface)
 
@@ -58,4 +64,4 @@ README
   lugatex@yahoo.com         => password
 ```
 
-### 31 Jan 2016 Oleg G.Kapranov
+### 2 Feb 2016 Oleg G.Kapranov
